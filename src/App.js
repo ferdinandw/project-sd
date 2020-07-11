@@ -17,6 +17,7 @@ import ItemSell from "./Pages/Sells/Sells";
 import ProductList from "./Pages/Product/productDetails";
 import NavMenu from "./Components/Navbar/Navbar.js";
 import Cart from './Pages/Cart/index'
+import Aboutus from './Pages/Aboutus/index'
 // import { Tab } from "react-bootstrap";
 // import Carousel from "./components/carousel/Carousel";
 // import Login from "./components/login/Login2";
@@ -68,6 +69,7 @@ export default class App extends Component {
               <Route exact path="/signup" component={Signup} />
               <Route exact path="/signin" component={Signin} />
               <Route exact path="/about" component={About} />
+              <Route exact path="/aboutus" component={Aboutus} />
               <Route path="/item/:id" component={Detail} />
               <Route path="/cart" component={Cart} />
               {/* <Route path="/checkout" component={Tabel} /> */}

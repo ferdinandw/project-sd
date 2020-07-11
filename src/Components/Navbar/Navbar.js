@@ -72,6 +72,17 @@ class NavMenu extends React.Component {
           </NavLink>
           <ul
             className="ml-auto navbar-nav" >
+              <li
+              className="nav-item"
+            >
+              <NavLink
+                style={{ color: "black" }}
+                className="nav-link"
+                to="/aboutus"
+              >
+                About Us
+              </NavLink>
+            </li>
             {this.props.auth.isAuthenticated !== true ? (
               <>
             <li
